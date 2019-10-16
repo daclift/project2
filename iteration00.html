@@ -1,42 +1,25 @@
 <html>
-<head>
-  <style>
-    .paragraph {
-    font: 15px arial, sans-serif;         
-      }
-    .blackbox{border: solid;
-                height: 100px;
-                width: 100px;
-                text-align: center;
-                background-color: black;
-                border-color: white;
-                color: yellow;}
-  </style>
-<title>yourFirstName INF1339 Project 2</title>
-    </head>
-    
-<body>
-<h3>API Project Iteration 0</h3>
-    
+
+    <title>Darren INF1339 Project 2</title>
+    <style>
+      .output {color: chartreuse;}
+    </style>
 <script>
-function paragraph{  
-        "Hello"}
+function hello (){  
+        document.getElementById("test_output").innerHTML = "HELLO"
+}
 
 </script>
-        <iframe src="index.html" height=400px width=400px>
-    </iframe>
     
-
+    <head>
     
-     <table class="standardTable">
-      <tr>
-            <td class="blackbox">
-            <button type="button"
-            onclick="display(Hello)">Hello</button>
-          </td>
-         </tr>
-<p id="sentinel" class="test_class"></p>
-         
-    </table>
-    </body>
-<html>
+        <body>
+<h3>API Project Iteration 0</h3>
+    
+            <button type = "button" onclick="hello()">Click Here</button>
+    
+            <p id ="test_output" class = "output"</p>
+        </body>
+        
+    </head>
+</html>
